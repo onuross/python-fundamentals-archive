@@ -7,15 +7,21 @@ This monorepo archives early-stage coursework and independent coding exercises. 
 
 ## ⚙️ Tech Stack
 * **Language:** Python 3.x
-* **Core Concepts:** Data Parsing, Flow Control, String Manipulation, Dynamic CLI Rendering, Basic Statistics
+* **Core Concepts:** 2D Matrix Manipulation, File I/O Streams, Algorithmic State Tracking, String Parsing, Basic Statistics
 
 ## 📂 Repository Structure
 
 | Category | Directory | Contents & Technical Focus |
 | :--- | :--- | :--- |
-| **CLI Games** | `/cli-games` | Word-guessing algorithms, Turn-based logic, State tracking |
-| **Data & Analytics** | `/data-and-statistics` | Mathematical aggregation, Score-tracking pipelines, Report calculation scripts |
-| **Utilities & Math** | `/utilities-and-math` | String sanitization algorithms, Financial/Tax formulas, Arithmetic operation routers |
+| **CLI Games** | `/cli-games` | Turn-based state machines, matrix board validation, word-guessing logic (`cli_board_game.py`, `hangman.py`, `vocab_quiz_*.py`) |
+| **Data & Analytics** | `/data-and-statistics` | 2D matrix traffic accident analysis, industrial production batch aggregation, archery scoreboard rankings (`traffic_accident_analyzer.py`, `monthly_production_analyzer.py`, `archery_*.py`) |
+| **Utilities & Math** | `/utilities-and-math` | String search & replace engines, factory quality-control thresholds, progressive income tax calculations (`text_manipulation_tool.py`, `factory_quality_control.py`, `salary_tax_calculator.py`) |
+
+## 🛠️ Execution
+Navigate to any module and run scripts directly via Python:
+```bash
+python data-and-statistics/traffic_accident_analyzer.py
+```
 
 ## 📜 License
-Distributed under the **MIT License**.
+Distributed under the [MIT License](LICENSE).
